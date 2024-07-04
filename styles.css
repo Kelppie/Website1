@@ -5,7 +5,23 @@ a>img{
 width: 200px;
 height: 200px;
 }
-a{text-decoration: none;}
+.bingbong{
+    display: flex;
+    justify-content: space-evenly;
+}
+button{
+    border-radius: 10px;
+    border: 5px solid;
+    border-color: #B1AFFF;
+    background-color: #fcfbbc;
+    font-family: "Bevan", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a{  text-decoration: none;
+    font-family: "Life Savers", serif;
+    font-weight: 700;
+    font-style: normal;}
 .eras{
     display: flex;
     flex-direction: column;
@@ -80,5 +96,3 @@ margin-bottom: 5px;}
     float: right;
     width: 50%;
 }
-button{margin-left: 50%;}
-  
